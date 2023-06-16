@@ -1,2 +1,2 @@
-# review
-Review of fundamental concepts in TDA
+# Review
+Review of fundamental concepts in TDA.
