@@ -467,4 +467,49 @@
         Further, the rank of the $p$-th homology group is the same as the number of $p$-dimensional holes in the complex, i.e., its $p$-dimensional {\color{red} Betti number} $\beta_p$.
     \end{frame}
 
+    \begin{frame}{Topological Data Analysis}
+        \framesubtitle{Euler Characteristic}
+        \newtheorem{thrm:ept}{Euler-Poincar\'{e} Theorem}
+
+        As a last note on the theoretical underpinnings of TDA, we have the following theorem.
+
+        \begin{thrm:ept}
+            Let $K$ be an abstract simplicial complex. Then the alternating sum of the ranks of the homology groups
+            of $K$, i.e. $\beta_p$, is equal to the Euler characteristic of $K$.
+
+            \begin{equation*}
+                \chi(K) = \sum_{p\geq 0} (-1)^p \beta_p.
+            \end{equation*}
+        \end{thrm:ept}
+
+        It is important to note that the Euler characteristic is a topological invariant. This means that we can use 
+        the Euler characteristic to compare the topological properties of different data sets. Further, we might be 
+        able to use the Euler characteristic as a measure of the complexity and performance of a machine learning model.
+    \end{frame}
+
+    \begin{frame}{Applications of TDA to DL}
+        \framesubtitle{Watanabe and Yamana (2021)}
+
+        Methodologies as proposed by Watanabe and Yamana (2021) can be summarized as having relevant 
+        applications in the following areas:
+
+        \begin{enumerate}
+            \item PH can be used to detect the shortage of training data,
+            \item and for selecting the best model architecture.
+        \end{enumerate}
+    \end{frame}
+
+    \begin{frame}{Applications of TDA to DL}
+        \framesubtitle{Corneanu et al. (2019)}
+
+        Methodologies as proposed by Corneanu et al. (2019) can be summarized as having relevant
+        applications in the following areas:
+
+        \begin{enumerate}
+            \item PH can be used to detect the shortage of training data,
+            \item and for selecting the best model architecture.
+            % \item 
+        \end{enumerate}
+    \end{frame}
+
 \end{document}
